@@ -26,6 +26,7 @@
 .minirobot{
     height: 45%;
     width: 65%;
+  
    
 }
 .minirobot li img{
@@ -35,6 +36,7 @@
 .minirobot li{
     display: flex;
     align-items: center;
+    
 }
 .textpara{
     font-size: 1.2rem;
@@ -140,7 +142,10 @@
     }
     .minirobot{
         height: 70%;
-        width: 100% 
+        width: 100% ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .minirobot li img{
         width: 2rem;
@@ -149,7 +154,7 @@
      .minirobot li{
          display: flex;
          align-items: center;
-         padding: 0.5rem;
+         gap: 1rem;
      }
      .heading{
         font-size: 2rem;

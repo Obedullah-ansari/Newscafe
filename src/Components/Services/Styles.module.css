@@ -30,6 +30,7 @@
   justify-content: center;
   height: 90%;
   gap: 5%;
+  font-size: 0.9rem;
   cursor: pointer;
 }
 .card {
@@ -69,7 +70,6 @@
   text-align: center;
   width: 20%;
   border-radius: 0.5rem;
-
   background: white;
 }
 
@@ -84,7 +84,7 @@
     .card {
       box-shadow: 1px 1px 20px 2px #76d7c4;
       width: 25%;
-      height: 80%;
+      height: 85%;
       font-size: 0.9rem
     }
   }

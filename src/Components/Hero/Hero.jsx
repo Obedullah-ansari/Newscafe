@@ -77,7 +77,7 @@ function Hero() {
               ))}
             
             </motion.p>
-            <Link className={styles.herobtn}  to="/Newsbody">
+            <Link className={styles.herobtn}  to="/Newscafe/Newsbody">
               Read
             </Link>
           </div>
@@ -114,7 +114,7 @@ function Hero() {
           <div className={styles.imgcontainer_new}>
             <img src={img4} alt="" />
           </div>
-          <Link  className={styles.btnnew} to="/Newsbody">
+          <Link  className={styles.btnnew} to="/Newscafe/Newsbody">
               Read
             </Link>
         </div>

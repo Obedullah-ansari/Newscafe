@@ -15,7 +15,7 @@ function Heronav() {
         <a className="nav-link active" aria-current="page" href="#hero">Home</a>
         <a className="nav-link" href="#services">services</a>
         <a className="nav-link" href="#contact">contact us</a>
-        <a className="nav-link" href="#">Upgrade</a>
+      
       </div>
     </div>
   
