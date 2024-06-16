@@ -1,0 +1,197 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.robo{
+    height: 100vh;
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:3rem;
+    background-image: url("https://wallpapercave.com/wp/wp2757874.gif");
+    background-size: cover;
+}
+.robo{
+    color: rgb(177, 177, 243);
+}
+.minirobot{
+    height: 45%;
+    width: 65%;
+   
+}
+.minirobot li img{
+   width: 5rem;
+   padding: 1rem;
+}
+.minirobot li{
+    display: flex;
+    align-items: center;
+}
+.textpara{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.Contact{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    background-color: rgb(24, 24, 55);
+}
+.contactbio{
+
+    background-image: linear-gradient(180deg, #6bd8f3, #d602d9);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 70%;  
+    height: 75vh;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.contactbio input::placeholder {
+    color: rgba(25, 13, 78, 0.858); /* Change to whatever color you prefer */
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .contactbio textarea::placeholder {
+    color: rgba(25, 13, 78, 0.858); /* Change to whatever color you prefer */
+    font-size: 1rem;
+    font-weight: 600;
+  }
+.contactbio h2{
+    color: rgba(25, 13, 78, 0.858);
+    font-size: 2rem;
+}
+
+.contactbio input{
+  width: 70%;
+  height: 3rem;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  border: none;
+  background-color:  #ffffffbc ;
+  color: rgba(25, 13, 78, 0.858);
+  font-size: 1rem;
+}
+.contactbio textarea{
+    width: 70%;
+    border-radius: 0.3rem;
+    background-color:  #ffffffbc ;
+    color: rgba(25, 13, 78, 0.858);
+}
+.submtbtn{
+    margin: 0.5rem;
+    padding: 1rem;
+    font-weight: 700;
+    background: transparent;
+    border: none;
+    border-radius: 0.8rem;
+    color: rgba(25, 13, 78, 0.858);
+    cursor: pointer;
+    background-color:  rgba(89, 180, 192, 0.992) ;
+    width: 20%;
+}
+.submtbtn:hover{
+  box-shadow: 1px 1px 10px 2px rgba(25, 13, 78, 0.858);
+}
+
+.heading{
+    font-size: 4.5rem;
+}
+.uderline{
+    display: inline-block;
+    height: 0.3rem;
+    background-color: rgba(255, 1, 255, 0.907);
+    border-radius: 1rem;
+}
+.error{
+   color: rgb(231, 41, 41);
+   font-size: 0.8rem;
+}
+
+@media screen and (max-width: 768px)  {
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+    }
+    .robo{
+        height: 50vh;
+        width: 100%
+       
+    }
+    .minirobot{
+        height: 70%;
+        width: 100% 
+    }
+    .minirobot li img{
+        width: 2rem;
+        padding: 0.1rem;
+     }
+     .minirobot li{
+         display: flex;
+         align-items: center;
+         padding: 0.5rem;
+     }
+     .heading{
+        font-size: 2rem;
+    }
+    .Contact{
+        height: 50vh;
+        width: 100%;
+    }
+    .contactbio{
+         gap: 0.3rem;  
+        width: 95%;  
+        height: 95%;
+        padding: 0.5rem;
+        border-radius: 1rem;
+    }
+    .contactbio h2{
+        color: rgba(25, 13, 78, 0.858);
+        font-size: 1rem;
+    }
+    .contactbio input{
+        width: 75%;
+        height: 2.5rem;
+        padding: 0.2rem;
+      }
+      .contactbio textarea{
+        width: 75%;
+        height: 4rem;
+        border-radius: 0.3rem;
+    }
+    .submtbtn{
+        padding: 0.5rem;
+        font-weight: 600;
+        border-radius: 0.3rem;
+      
+    }
+    ::placeholder {
+        color: #eeeeee; /* Change to whatever color you prefer */
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+      .textpara{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+}
