@@ -55,7 +55,7 @@ function Card({ title,img, dec }) {
          
          <p> {dec}  </p>
 
-         <Link  to="/Newsbody" className={Styles.herobtn}>Read</Link>
+         <Link  to="/Newscafe/Newsbody" className={Styles.herobtn}>Read</Link>
     
       </motion.div>
     </motion.div>

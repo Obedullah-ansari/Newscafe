@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Styles from "./Styles.module.css";
 import Newscards from "./Newscards";
-import{animate, motion} from "framer-motion"
+import{ motion} from "framer-motion"
 
 function Newsboard({ category }) {
   const [articles, setArticles] = useState([]);
@@ -11,7 +11,10 @@ function Newsboard({ category }) {
     const fetchNews = async () => {
       try {
         let url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=${import.meta.env.VITE_API_KEY}`;
-        let response = await fetch(url);
+        let response = await fetch(url,{
+          crossDomain :true,
+  
+        });
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }

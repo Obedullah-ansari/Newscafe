@@ -59,6 +59,11 @@
   background: linear-gradient(#71e3ff,#e700eb);
   animation: rotate 4s linear infinite;
 }
+.note{
+  color: rgb(255, 93, 93);
+  padding-left: 1.1rem;
+
+}
   @keyframes rotate{
     form{
       transform: rotate(0deg);
@@ -138,7 +143,7 @@
      
       }
       .cardcontainer {
-        height: 93%;
+        height: 80%;
         width: 97%;
         border-radius: 0.5rem;
         margin: 1%;
